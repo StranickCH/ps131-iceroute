@@ -1,0 +1,18 @@
+# data (downloaded or derived, see README)
+03_camera_PS131_ATWAICE_full/
+03_camera_PS131_cache1024/
+06_amsr2_bremen_2022/
+07_era5_ps131/
+08_icecharts_2022/
+pangaea/
+ps131_index/
+ps131_dataset/
+ps131_features/
+runs/
+logs/
+paper_results.zip
+*.txt
+!requirements.txt
+!data_manifest/*.txt
+__pycache__/
+*.pyc
