@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper and this software."
 title: "Code for \"Sensor-error-aware ice routing using shipborne imagery and AMSR2: a simulation study based on Polarstern cruise PS131\""
 version: 1.0.0
-# doi: 10.5281/zenodo.XXXXXXX   (fill in after the first Zenodo release)
+doi: 10.5281/zenodo.23476243
 repository-code: "https://github.com/StranickCH/ps131-iceroute"
 license: MIT
 authors:
@@ -10,3 +10,5 @@ authors:
     given-names: Boris
   - family-names: Dong
     given-names: Junyu
+  - family-names: Said Ben Salah
+    given-names: Amal

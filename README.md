@@ -1,9 +1,10 @@
 # ps131-iceroute
 
 Code for the paper *Sensor-error-aware ice routing using shipborne imagery and AMSR2: a simulation
-study based on Polarstern cruise PS131* (B. Danilov, J. Dong).
+study based on Polarstern cruise PS131* (B. Danilov, J. Dong, A. Said Ben Salah).
 
-Archived version used in the paper: v1.0.0, doi: *to be added after the Zenodo release*.
+Archived version used in the paper: v1.0.0, doi:[10.5281/zenodo.23476243](https://doi.org/10.5281/zenodo.23476243).
+Result files of the paper: doi:[10.5281/zenodo.23476269](https://doi.org/10.5281/zenodo.23476269).
 
 Camera frames of RV Polarstern cruise PS131 (July–August 2022) are matched to the bridge synoptic
 observations, AMSR2 ASI sea ice concentration and ERA5. Three ice classifiers (AMSR2, camera,
@@ -67,7 +68,7 @@ seed about 7 h.
 
 ## Result files
 
-`paper_results.zip` (in the Zenodo record) holds the results of the full run behind the paper:
+`paper_results.zip` (Zenodo, doi:[10.5281/zenodo.23476269](https://doi.org/10.5281/zenodo.23476269)) holds the results of the full run behind the paper:
 the matched frame table with labels (`ps131_index/ps131_labeled.csv`), the out-of-fold
 predictions of all classifiers (`runs/fusion_*/fusion_oof.csv`, `runs/cv_*/oof_predictions.csv`),
 the DMI chart windows, and the folders of all routing and PPO runs (per-trial results, summaries,
