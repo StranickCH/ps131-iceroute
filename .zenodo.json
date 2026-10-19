@@ -1,0 +1,15 @@
+{
+  "title": "Code and results for \"Sensor-error-aware ice routing using shipborne imagery and AMSR2: a simulation study based on Polarstern cruise PS131\"",
+  "upload_type": "software",
+  "description": "Python code and result tables for the paper. Camera frames of Polarstern cruise PS131 are matched to bridge observations, AMSR2 ASI sea ice concentration and ERA5; ice classifiers (camera, AMSR2, early fusion) are evaluated by cross-validation over hourly episodes; their measured errors drive a routing simulation that compares planners using hard labels, expected cost and a cell-wise CVaR surrogate, with AMSR2-based and DMI ice chart references, and a residual PPO agent.",
+  "creators": [
+    {"name": "Danilov, Boris", "affiliation": "Ocean University of China"},
+    {"name": "Dong, Junyu", "affiliation": "Ocean University of China"}
+  ],
+  "license": "MIT",
+  "keywords": ["sea ice", "ice navigation", "route planning", "shipborne camera", "AMSR2", "data fusion", "uncertainty", "calibration", "reinforcement learning", "Polarstern PS131"],
+  "related_identifiers": [
+    {"identifier": "10.1594/PANGAEA.967580", "relation": "isDerivedFrom", "resource_type": "dataset"},
+    {"identifier": "10.1594/PANGAEA.987909", "relation": "isDerivedFrom", "resource_type": "dataset"}
+  ]
+}
